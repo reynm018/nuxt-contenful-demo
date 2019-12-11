@@ -1,0 +1,15 @@
+/**
+  Variables to be used throughout the application
+ */
+
+$grid-breakpoints: () !default;
+$grid-breakpoints: map-merge(
+                (
+                        xs: 0,
+                        sm: 576px,
+                        md: 768px,
+                        lg: 992px,
+                        xl: 1200px
+                ),
+                $grid-breakpoints
+);
